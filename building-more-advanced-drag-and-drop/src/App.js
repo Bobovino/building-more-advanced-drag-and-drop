@@ -5,9 +5,9 @@ import "./App.css";
 
 function App() {
   const [tasks, setTasks] = useState([
-    { id: '1', name: 'Task 1' },
-    { id: '2', name: 'Task 2' },
-    { id: '3', name: 'Task 3' },
+    { id: '0', name: 'Task 1' },
+    { id: '1', name: 'Task 2' },
+    { id: '2', name: 'Task 3' },
   ]);
 
   const onDragEnd = (result) => {
